@@ -74,7 +74,7 @@ header .title a {
   text-align: center;
     flex: auto;
     padding-left: 0;
-    gap: 80px
+    gap: 40px
   }
 
   .nav-list ul{

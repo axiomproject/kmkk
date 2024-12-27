@@ -36,6 +36,7 @@ const Home = () => {
       <h2 className="footerbanner">Much in Little</h2>
       <h3 className="h3-footerbanner">Every donation, no matter the size, helps change lives. Join us in making a
       difference, one step at a time.</h3>
+      <h3 className="h3-donatebutton">Donate Now</h3>
       </div>
       </div>
     </div>
