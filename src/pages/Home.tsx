@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Layout.css";
 import { Button, Typography } from "@mui/material";
-
+import bannerImage from "../img/map.png"
 
 const buttons = [
   {
@@ -26,9 +26,10 @@ const Home = () => {
           </Typography>
         </div>
       </div>
-      <div className="home-container">
-
-      </div>
+     
+        <h2 className="map">Payatas Rift</h2>
+      <img src={bannerImage} alt="Banner" className="banner-image" />
+    
     </div>
   );
 };
