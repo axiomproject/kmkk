@@ -570,3 +570,19 @@ font-family: "League Gothic";
         font-size: 14px;
         color: #666;
       }
+
+      .introduction{
+        padding: 5rem;
+        text-align: left;
+        margin-top: 50px;
+      }
+      .Testimonial{
+        font-family: "Poltawski Nowy";
+        font-weight: 600;
+        font-size: 3rem;
+      }
+      .h4-testimonial{
+        font-family: "Poppins";
+        font-weight: 400;
+        margin-top: 25px;
+      }
