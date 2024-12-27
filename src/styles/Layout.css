@@ -599,4 +599,29 @@ font-family: "League Gothic";
         text-align: left;
       }
 
+     .footerbanner{
+      font-family: "Poltawski Nowy";
+      text-align: left;
+      position: absolute;
+      top: 10rem;
+      font-size: 4rem;
      
+     }
+     .h3-footerbanner{
+      font-family: "Poppins";
+      text-align: left;
+      font-size: 1.2rem;
+      position: absolute;
+      top: 16.5rem;
+      font-weight: 400;
+      width: 45rem;
+ 
+     }
+     .footerimage{
+      width: 100%;
+      position: relative;
+     }
+     .footertext{
+     
+      margin-left: 8rem;
+     }
