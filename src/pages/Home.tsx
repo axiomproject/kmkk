@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Layout.css";
 import { Button, Typography } from "@mui/material";
 import bannerImage from "../img/map.png"
+import footerImage from "../img/footerImage.png"
 
 const buttons = [
   {
@@ -29,8 +30,9 @@ const Home = () => {
      
         <h2 className="map">Payatas Rift</h2>
       <img src={bannerImage} alt="Banner" className="banner-image" />
-      <div className="home-container">
-        </div>
+  
+      <img src={footerImage} alt="Banner" className="footer-image" />
+       
     </div>
   );
 };

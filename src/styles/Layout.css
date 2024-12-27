@@ -402,8 +402,15 @@ font-family: "League Gothic";
       }
 
       .banner-image {
-        width: 100%; /* Stretches the image from left to right */
-        height: auto; /* Maintains the aspect ratio */
+        width: 100%; 
+        height: auto; 
+        padding: 0px !important;
+        background-size: cover;
+        background-position: center;
+      }
+      .footer-image {
+        width: 100%; 
+        height: auto; 
         padding: 0px !important;
         background-size: cover;
         background-position: center;
@@ -413,7 +420,7 @@ font-family: "League Gothic";
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #fdf4e5; /* Match the background color */
+        background-color: #fdf4e5; 
         padding: 40px;
         border-radius: 12px;
       }
