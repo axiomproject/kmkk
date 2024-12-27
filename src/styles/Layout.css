@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+main {
+    min-height: calc(114vh - 162px);
+   
+}
+body{
+  width: none;
+  color: #FEF6E4;
+}
+main div {
+  
+    text-align: center;
+}
+
+p{
+    cursor: default;
+    user-select: none;
+}
+
+
+.About {
+margin-top: 15px;
+text-align: center;
+font-family: "League Gothic";
+  margin-bottom: -12px; 
+}
+
+.line-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .line {
+    width: 100px; 
+    height: 1px;
+    background-color: #000; 
+    border-radius: 15px; 
+    transform: scaleY(0.1); 
+    
+
+  }
+  
+  .header2{
+
+   font-family: "Inter";
+   font-size: 25px;
+  }
+
+  .info{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 90px;
+   padding-right: 90px;
+   margin-bottom: 4rem;
+  }
+
+  .info p{
+    margin-bottom: 4rem;
+  }
+
+  .info h2{
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  .faq  {
+    margin-top: 40px;
+    text-align: center;
+    font-family: "League Gothic";
+      margin-bottom: 38px; 
+    }
+
+    .wip-header{
+      line-height: 50rem;
+      font-weight: 700;
+      font-family: "League Gothic";
+      font-size: 50px;
+    }
+
+    .faq h2{
+      margin-bottom: 40px;
+    }
+
+    .name{
+      font-family: "Inter";
+      margin-top: -20px;
+      font-size: 20px;
+    }
+
+    .eye-test-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: calc(114vh - 162px);
+
+    }
+    
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    
+    .square-button {
+      width: 40%;
+      min-width: 600px;
+      max-width: 400px;
+      height: 25rem;
+      border: 1px solid black;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      margin: 20px;
+    }
+    
+    .square-button h3 {
+      font-size: 1.5em;
+      margin-top: -10px;
+      margin-bottom: 10px;
+      font-family: "Inter";
+      font-weight: 700;
+    }
+    
+    .square-button p {
+      font-size: 1.3em;
+      text-align: center;
+      margin-bottom: 10px;
+      font-family: "Inter";
+      font-weight: 500;
+    }
+    
+    .home-container {
+      display: flex;
+      flex-direction: column;
+      background-color: #FEF6E4;
+      align-items: center;
+      min-height: calc(114vh - 162px);
+    }
+
+    .main-button {
+      min-width: 600px;
+      max-width: 500px;
+      height: 30rem;
+
+    }
+
+    .main-button h3 {
+      font-size: 2.5em;
+      justify-content: top;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-family: "Poltawski Nowy";
+      font-weight: 500;
+
+    }
+    
+    .main-button p {
+      font-size: 1.3em;
+      text-align: center;
+      
+      margin-top: 20px;
+      font-family: "Poppins";
+    
+    }
+
+    .home-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+    }
+    
+    .first-button {
+ 
+      min-width: 500px;
+      max-width: 960px;
+      height: 30rem;
+      border: 1px solid black;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      margin: 20px;
+    }
+
+    .first-button h3 {
+      font-size: 1.5em;
+      justify-content: top;
+      margin-top: -10px;
+      margin-bottom: 10px;
+      font-family: "Inter";
+      font-weight: 700;
+    }
+    
+    .first-button p {
+      font-size: 1.3em;
+      text-align: center;
+      
+      margin-bottom: 10px;
+      font-family: "Inter";
+      font-weight: 500;
+    }
+
+    .second-button {
+   
+      min-width: 600px;
+      max-width: 720px;
+      height: 24.5rem;
+      border: 1px solid black;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      margin: 20px;
+      
+    }
+
+    .second-button h3 {
+      font-size: 1.5em;
+      justify-content: top;
+      margin-top: -10px;
+      margin-bottom: 10px;
+      font-family: "Inter";
+      font-weight: 700;
+    }
+    
+    .second-button p {
+      font-size: 1.3em;
+      text-align: center;
+      
+      margin-bottom: 10px;
+      font-family: "Inter";
+      font-weight: 500;
+    }
+
+
+    
+
+    .sariling-row{
+    
+     padding-top: 0;
+      display: flex;
+      flex-direction: column;
+
+     
+     
+    }
+
+    .sunbutton span{
+      margin-right: 0 !important;
+      margin-top: -10 !important;
+    }
+
+  
+
+
+    
+    .input-container {
+   
+      display: inline-block;
+
+
+    }
+    
+    input[type='text'] {
+      width: 40px;
+      height: 40px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 18px;
+      margin-right: 10px;
+    }
+
+    input[type='text'] {
+
+      border: none !important;
+      text-align: center;
+      font-size: 25px;
+
+    }
+
+  
+
+    
+    .css-mhc70k-MuiGrid-root {
+      margin-left: 0 !important;
+      }
+
+
+   
+      body {
+        perspective:500px;
+        background-color:#E0E0E0;
+        font-family: 'Roboto', sans-serif;
+      
+      }
+      * {
+        box-sizing:border-box;
+      }
+      
+    
+      
+
+
+      .nav-list {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .nav-item {
+        position: relative;
+      }
+      
+      .nav-link {
+        text-decoration: none;
+        color: #333;
+        padding: 10px 15px;
+        transition: color 0.3s, text-decoration 0.3s;
+      }
+      .nav-link-about{
+        text-decoration: none;
+        color: #333;
+        padding: 10px 15px;
+        transition: color 0.3s, text-decoration 0.3s;
+        cursor: pointer;
+      }
+      .nav-link-testimonials{
+        text-decoration: none;
+        color: #333;
+        padding: 10px 15px;
+        transition: color 0.3s, text-decoration 0.3s;
+        cursor: pointer;
+      }
+      
+      .nav-link:hover {
+        color: #EE3F24;
+        text-decoration: underline;
+      }
+      
+      .dropdown-arrow {
+        margin-left: 3px;
+        font-size: 0.8em;
+      }
+      
+      .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #FEF6E4 !important;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        list-style: none;
+        margin: 0;
+        padding: 10px 0;
+        z-index: 1000;
+      }
+      
+      .dropdown-menu .dropdown-link {
+        display: block;
+        text-decoration: none;
+        color: #333;
+        padding: 8px 9px;
+        white-space: nowrap;
+        font-size: 0.8em;
+      }
+      
+      .dropdown-menu .dropdown-link:hover {
+        background-color: #FEF6E4;
+        color: #EE3F24;
+      }
+      
+      .nav-item:hover .dropdown-menu {
+        display: block;
+      }
+      
+      .nav-link::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #EE3F24;
+        transition: width 0.3s;
+      }
+      
+      .nav-link:hover::after {
+        width: 100%;
+      }
+
+      .banner-image {
+        width: 100%; /* Stretches the image from left to right */
+        height: auto; /* Maintains the aspect ratio */
+        padding: 0px !important;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .story-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fdf4e5; /* Match the background color */
+        padding: 40px;
+        border-radius: 12px;
+      }
+      
+      .story-content {
+        display: flex;
+        gap: 100px;
+        max-width: 1000px;
+      }
+      
+      .story-text {
+        flex: 1;
+        font-family: 'Poppins';
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333;
+        margin-top: 90px;
+        text-shadow: 1px;
+        text-align: justify;
+      }
+      
+      .story-image-container {
+        text-align: center;
+      }
+      
+      .story-image {
+        width: 20em;
+        height: 30em;
+        border-radius: 12px;
+      }
+      
+      .story-caption {
+        margin-top: 8px;
+        font-size: 14px;
+        color: #555;
+        font-style: italic;
+      }
+
+      .mission-image{
+        width: 23em;
+        height: 25em;
+        border-radius: 12px;
+      }
+      .org-image{
+        width: 23em;
+        height: 25em;
+        border-radius: 12px;
+      }
+      .organization-image{
+        width: 20em;
+        height: 30em;
+        border-radius: 12px;
+      }
+
+      .ph{
+        text-align: left;
+        margin-bottom: 25px;
+        font-weight: 600;
+        font-size: 25px;
+      }
+
+      .team-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px;
+        padding: 20px;
+      }
+      
+      .team-card {
+        text-align: center;
+        padding: 10px;
+
+      }
+      
+      .image-placeholder {
+        width: 300px;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        border-radius: 8px;
+        background-size: cover;
+
+      }
+      
+      .profile-1 {
+        background-image: url("../img/1.jpg");
+      }
+      
+      .profile-2 {
+        background-image: url("../img/noci.jpg");
+      }
+      
+      .profile-3 {
+        background-image: url("../img/gatela.jpg");
+      }
+      
+      .profile-4 {
+        background-image: url("../img/father.png");
+      }
+      .profile-5 {
+        background-image: url("../img/mangulad.jpg");
+      }
+      .profile-6 {
+        background-image: url("../img/father.png");
+      }
+      .profile-7 {
+        background-image: url("../img/velasco.jpg");
+      }
+      .profile-8 {
+        background-image: url("../img/hya.jpg");
+      }
+      .profile-9 {
+        background-image: url("../img/jason.jpg");
+      }
+      .profile-10 {
+        background-image: url("../img/father.png");
+      }
+      .profile-11 {
+        background-image: url("../img/Emil.jpg");
+      }
+      .profile-12 {
+        background-image: url("../img/june.jpg");
+      }
+      .profile-13 {
+        background-image: url("../img/father.png");
+      }
+      .profile-14 {
+        background-image: url("../img/father.png");
+      }
+      .profile-15 {
+        background-image: url("../img/father.png");
+      }
+      .profile-16 {
+        background-image: url("../img/rocella.jpg");
+      }
+      
+      
+      .default-avatar {
+        width: 80px;
+        height: 80px;
+        background-color: #ccc;
+        border-radius: 50%;
+      }
+      
+      .team-name {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      
+      .team-subtext {
+        font-size: 14px;
+        color: #666;
+      }

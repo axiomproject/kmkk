@@ -1,0 +1,155 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #FEF6E4;
+}
+
+header {
+    background-color: #FEF6E4;
+    height: 100px;
+    width: auto;
+}
+
+.header-div {
+  
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-div{
+  
+    color: #fff;
+    display: flex;
+
+    align-items: center;
+}
+
+.logo-container {
+  flex: 1;
+
+}
+
+.logo-image {
+  height: 45px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+
+header .title {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: "League Gothic";
+    letter-spacing: 10px;
+
+}
+
+header .title a {
+    text-decoration: none;
+    color: #000000;
+  
+
+}
+
+/* Your CSS file */
+
+.navbars {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+    justify-content: space-around;
+  
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+   align-items: center;
+  text-align: center;
+    flex: auto;
+    padding-left: 0;
+    gap: 80px
+  }
+
+  .nav-list ul{
+    margin-right: 150px;
+  }
+
+  .nav-link {
+    text-decoration: none !important;
+    color: inherit !important;
+    transition: color 0.2s ease-in-out !important; 
+  }
+  
+  .nav-link:hover {
+    color: #626262 !important; 
+    }
+  
+  .nav-item {
+    display: flex;
+    color: #000000;
+    font-family: "Poppins";
+    font-weight: 20px;
+
+
+
+  }
+  
+  .nav-item a {
+  
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+   
+      margin-top: 10px;
+    }
+  
+    .nav-item {
+      margin: 0 10px;
+    }
+  }
+  .actions-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  
+  .signup-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #DF2E38;
+    font-family: "Poppins";
+    transition: background-color 0.3s ease;
+  }
+  .donate-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Poppins";
+    transition: background-color 0.3s ease;
+  }
+
+  
+  .sign-up:hover {
+    color: #a51b22;
+  }
+  
+  
+  
+  .donate:hover {
+    color: #6d6c6c;
+  }

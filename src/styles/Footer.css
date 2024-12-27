@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+footer {
+    background-color: #242424;
+    height: 300px;
+ 
+  }
+  
+  .footer-div {
+    padding: 20px;
+    width: 50rem;
+    padding-right: 10px;
+    margin-left: 35px
+  }
+
+  
+  
+  
+  img {
+    margin-top: 15px;
+    width: 300px;
+    height: 60px;
+   
+  }
+  
+
+  .copyright {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footercreds{
+    display: flex;
+    margin-top: 5px;
+    font-family: "Poppins";
+    letter-spacing: 2px;
+    font-size: 3rem;
+    color: #ffff;
+  }
+  .h5-footercreds{
+    margin-top: 5px;
+    font-family: "Poppins";
+    letter-spacing: 2px;
+    font-size: 1rem;
+    color: #ffff;
+    font-weight: 200;
+    margin-bottom: 10px;
+    margin-top: 35px;
+  }
+  .h5-contact{
+    margin-top: 5px;
+    font-family: "Poppins";
+    letter-spacing: 2px;
+    font-size: 1rem;
+    color: #ffff;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 35px;
+  }
