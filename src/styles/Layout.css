@@ -148,7 +148,7 @@ font-family: "League Gothic";
     .main-button {
       min-width: 600px;
       max-width: 500px;
-      height: 30rem;
+      height: 20rem;
 
     }
 
@@ -585,4 +585,9 @@ font-family: "League Gothic";
         font-family: "Poppins";
         font-weight: 400;
         margin-top: 25px;
+      }
+
+      .map{
+        font-family: "Poltawski Nowy";
+        text-align: left;
       }
