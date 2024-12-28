@@ -408,6 +408,23 @@ font-family: "League Gothic";
         background-size: cover;
         background-position: center;
       }
+      .life-image {
+        width: 100%; 
+        height: auto; 
+        padding: 0px !important;
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+      }
+      .lifetext{
+        font-family: "Poppins";
+        position: absolute;
+        top: 40em;
+        display: block;
+        width: 43%;
+        z-index: 1;
+        font-weight: 500;
+      }
       .footer-image {
         width: 100%; 
         height: auto; 
