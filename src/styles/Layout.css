@@ -673,9 +673,10 @@ font-family: "League Gothic";
       background-color: transparent;
       color: #333;
       font-size: 16px;
-      font-weight: bold;
+      font-family: "Poppins";
       cursor: pointer;
       position: relative;
+      text-transform: uppercase;
     }
     
     .tab-button::after {
@@ -685,7 +686,7 @@ font-family: "League Gothic";
       left: 0;
       width: 0%;
       height: 3px;
-      background-color: #ff9800;
+      background-color: #EE3F24;
       transition: width 0.3s ease;
     }
     
@@ -694,7 +695,7 @@ font-family: "League Gothic";
     }
     
     .tab-button:hover {
-      color: #ff9800;
+      color: #EE3F24;
     }
     
     .image-grid {
