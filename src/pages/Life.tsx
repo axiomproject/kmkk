@@ -37,13 +37,13 @@ const Life: React.FC = () => {
   };
 
   const images: ImageData[] = [
-    { src: "../../public/images/1.png", tags: ["Educating the Young"] },
-    { src: "../../public/images/2.png", tags: ["Educating the Young"] },
-    { src: "../../public/images/3.png", tags: ["Educating the Young"] },
-    { src: "../../public/images/4.png", tags: ["Health and Nutrition"] },
-    { src: "../../public/images/5.png", tags: ["Special Programs"] },
-    { src: "../../public/images/6.png", tags: ["Special Programs"] },
-    { src: "../../public/images/7.png", tags: ["Special Programs"] },
+    { src: "/images/1.png", tags: ["Educating the Young"] },
+    { src: "images/2.png", tags: ["Educating the Young"] },
+    { src: "/images/3.png", tags: ["Educating the Young"] },
+    { src: "/images/4.png", tags: ["Health and Nutrition"] },
+    { src: "/images/5.png", tags: ["Special Programs"] },
+    { src: "/images/6.png", tags: ["Special Programs"] },
+    { src: "/images/7.png", tags: ["Special Programs"] },
   ];
 
   const tabs = ["All", "Educating the Young", "Health and Nutrition", "Special Programs"];
