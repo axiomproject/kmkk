@@ -6,6 +6,20 @@ import footerImage from "../img/footerImage.png"
 import happinessIcon from '../img/happiness.svg';
 import loveIcon from '../img/love.svg';
 import sociallyIcon from '../img/social.svg';
+import gradStory from '../img/gradstory.svg'
+import weDo from "../img/wedo.svg";
+import help from "../img/help.svg";
+import highlightBg from "../img/highlightBg.svg"
+import PathConstants from "../routes/pathConstants";
+
+
+
+interface HighlightCardProps {
+  title: string;
+  description: string;
+  image: string;
+  link: string;
+}
 
 const buttons = [
   {
@@ -15,6 +29,19 @@ const buttons = [
   },
 
 ];
+
+const HighlightCard: React.FC<HighlightCardProps> = ({ title, description, image, link }) => {
+  return (
+    <div className="highlight-card">
+      <img src={image} alt={title} className="card-image" />
+      <h3 className="card-title">{title}</h3>
+      <p className="card-description">{description}</p>
+      <a href={link} className="card-link">
+        Read more
+      </a>
+    </div>
+  );
+};
 
 const Home = () => {
 
@@ -53,6 +80,46 @@ const Home = () => {
         </div>
       </div>
     </div>
+    <div className="page-container">
+    <section className="featured-highlights">
+
+    <div className="mainfeatured">
+    <h1 className="h1Featured">Featured Highlights</h1>
+      <div className="highlights-header">
+        <div className="img">
+          <img src={highlightBg} className="highlightbg"></img>
+        </div>
+        <div className="highlightstext">
+        <p>Discover how people spread causes in the digital era</p>
+        <p className="explore">Explore how social media influences charitable giving behaviors across generations.</p>
+        <a href="/report" className="report-link">Read our report</a>
+        </div>
+      </div>
+
+      <div className="highlights-grid">
+        <HighlightCard
+          title="Graduates' Stories"
+          description="Read more about their journey."
+          image={gradStory}
+          link={PathConstants.GRAD}
+        />
+        <HighlightCard
+          title="What do we do?"
+          description="Learn about our activities."
+          image={weDo}
+          link={PathConstants.GRAD}
+        />
+        <HighlightCard
+          title="How can you help?"
+          description="Find out how you can contribute."
+          image={help}
+          link={PathConstants.GRAD}
+        />
+      </div>
+      </div>
+    </section>
+    
+      </div>
       </div>
         <h2 className="map">Payatas Rift</h2>
       <img src={bannerImage} alt="Banner" className="banner-image" />
