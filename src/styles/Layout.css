@@ -802,7 +802,7 @@ font-family: "League Gothic";
     }
 
     .fundraising-section {
-      background: linear-gradient(135deg, #FF6953 0%, #E16250 50%, #993F32 100%);
+      background: linear-gradient(148deg, #FF6953 0%, #E16250 50%, #993F32 100%);
       padding: 5rem;
       border-radius: 20px;
       text-align: center;
@@ -858,6 +858,14 @@ font-family: "League Gothic";
       font-family: "Poppins";
     }
     .cards .icon {
+      width: 15rem; 
+      height: 15rem;
+      object-fit: contain; 
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .cards .socialicon {
       width: 15rem; 
       height: 15rem;
       object-fit: contain; 

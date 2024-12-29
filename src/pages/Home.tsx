@@ -47,7 +47,7 @@ const Home = () => {
           <p>Giving happiness to others is one of the most fulfilling things you can do in life</p>
         </div>
         <div className="cards">
-          <img src={sociallyIcon} alt="Build Socially Icon" className="icon" />
+          <img src={sociallyIcon} alt="Build Socially Icon" className="socialicon" />
           <h3>Build Socially</h3>
           <p>Giving happiness to others is one of the most fulfilling things you can do in life</p>
         </div>
