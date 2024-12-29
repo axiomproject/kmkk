@@ -7,6 +7,7 @@ const PathConstants = {
   COMMUNITY: "Community",
   PARTNER: "Partner",
   TEAM: "Team",
+  CONTACT: "Contact",
 
 };
 

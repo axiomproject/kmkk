@@ -8,6 +8,7 @@ main {
 body{
   width: none;
   color: #FEF6E4;
+  background-color: #FEF6E4;;
 }
 main div {
   
@@ -280,23 +281,7 @@ font-family: "League Gothic";
 
     }
     
-    input[type='text'] {
-      width: 40px;
-      height: 40px;
-      padding: 5px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 18px;
-      margin-right: 10px;
-    }
-
-    input[type='text'] {
-
-      border: none !important;
-      text-align: center;
-      font-size: 25px;
-
-    }
+  
 
   
 
@@ -455,10 +440,10 @@ font-family: "League Gothic";
       }
       
       .story-text {
-        flex: 1;
+     
         font-family: 'Poppins';
         font-size: 16px;
-        line-height: 1.6;
+       
         color: #333;
         margin-top: 90px;
         text-shadow: 1px;
@@ -732,7 +717,6 @@ font-family: "League Gothic";
     .firstSection{
       width: 60rem;
       margin-left: 100px;
-      margin-top: 100px;
     }
     .inquiry{
       display: flex;
@@ -761,6 +745,9 @@ font-family: "League Gothic";
       text-align: left;
       font-size: 4rem;
       font-family: "Poppins";
+    }
+    .ContactUs{
+      display: table-footer-group;
     }
 
     .contactp{
@@ -1097,3 +1084,166 @@ font-family: "League Gothic";
       height: 11rem;      
 
     }
+
+    /* contact page */
+
+    .form-container {
+      position: top right;
+    }
+
+    .contact-form {
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      width: 550px;
+      text-align: center;
+      position: fixed; 
+      top: 200px;       
+      right: 50px;   
+      z-index: 1000; 
+    
+    }
+    
+    .contact-form h2 {
+      font-size: 1.5em;
+      color: #000;
+      text-align: left;
+      font-family: "Poppins";
+      padding: 20px;
+    }
+    
+    .contact-form p {
+      color: #666;
+      margin-bottom: 15px;
+      text-align: left;
+      font-family: "Poppins";
+      padding-left: 20px;
+    }
+    .contact-submit-button{
+      border-radius: 15px;
+      width: auto;
+      font-family: "Poppins";
+      font-size: 1rem;
+    }
+    
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+      font-family: "Poppins";
+      font-size: 1rem;
+    }
+    .phone-group{
+      font-family: "Poppins";
+      font-size: 1rem;
+    }
+    
+    .form-group input,
+    .input[type='text'],
+    .form-group select,
+    .form-group textarea {
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+      margin-bottom: 5px;
+      width: 100% !important;
+      text-align: left;
+      font-family: "Poppins";
+    }
+    
+    .form-group textarea {
+      resize: none;
+      height: 60px;
+    }
+    
+    .char-count {
+      text-align: right;
+      font-size: 0.8em;
+      color: #888;
+    }
+    
+    button {
+      display: inline-block;
+      background-color: #FF3D00;
+      color: white; 
+      font-size: 1rem;
+      padding: 10px 150px; 
+      border: none;
+      border-radius: 50px; 
+      cursor: pointer; 
+      transition: background-color 0.3s ease;
+      text-align: center;
+    }
+    
+    button:hover {
+      background-color: #e64a19;
+    }
+    
+    .terms {
+      font-size: 0.8em;
+      color: #888;
+      margin-top: 10px;
+    }
+    
+    .terms a {
+      color: black;
+      text-decoration: none;
+    }
+    
+    .terms a:hover {
+      text-decoration: underline;
+    }
+
+    .name-group {
+      display: flex;
+   
+      margin-bottom: 15px;
+      font-family: "Poppins";
+      font-size: 1rem;
+    }
+
+    .location-image {
+      width: 100%; 
+      height: auto; 
+      padding: 0px !important;
+      background-size: cover;
+      background-position: center;
+    }
+    .secondSection{
+      min-height: calc(114vh - 162px);
+     
+     
+    }
+    .location{
+      margin-top: 5rem;
+      display: inline-flex;
+      gap: 5rem;
+    }
+    .location h1{
+      font-size: 3rem;
+      text-align: left;
+      font-family: "Poppins";
+      font-weight: 300;
+      width: 50rem;
+    }
+    .location h3{
+      font-size: 1.2rem;
+      text-align: left;
+      font-family: "Poppins";
+    }
+    .location h6{
+      font-size: 1.1rem;
+      text-align: left;
+      font-family: "Poppins";
+    }
+    .location p{
+      font-size: 1rem;
+      text-align: left;
+      font-family: "Poppins";
+    }
+    .locationtext{
+      margin-top: 5rem;
+    }
+  

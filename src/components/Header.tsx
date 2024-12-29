@@ -33,6 +33,11 @@ export default function Header() {
                   Meet the Team
                 </Link>
               </li>
+              <li>
+                <Link className="dropdown-link" to={PathConstants.CONTACT}>
+                  Contact Us
+                </Link>
+              </li>
             </ul>
           </li>
           <li className="nav-item">
