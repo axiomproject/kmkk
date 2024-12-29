@@ -144,6 +144,12 @@ font-family: "League Gothic";
       align-items: center;
       min-height: calc(114vh - 162px);
     }
+    .page-container {
+  
+      background-color: #FEF6E4;
+
+      min-height: calc(114vh - 162px);
+    }
 
     .main-button {
       min-width: 600px;
@@ -620,7 +626,7 @@ font-family: "League Gothic";
       font-family: "Poltawski Nowy";
       text-align: left;
       position: absolute;
-      top: 10rem;
+      top: 20rem;
       font-size: 4rem;
       
      }
@@ -629,7 +635,7 @@ font-family: "League Gothic";
       text-align: left;
       font-size: 1.2rem;
       position: absolute;
-      top: 16.5rem;
+      top: 28.5rem;
       font-weight: 400;
       width: 45rem;
  
@@ -647,7 +653,7 @@ font-family: "League Gothic";
       text-align: left;
       font-size: 1.2rem;
       position: absolute;
-      top: 23.5rem;
+      top: 35.5rem;
       font-weight: 400;
       width: 45rem;
       margin-left: 15px;
@@ -720,4 +726,142 @@ font-family: "League Gothic";
     
     .gallery-image:hover {
       transform: scale(1.05);
+    }
+
+
+    .firstSection{
+      width: 60rem;
+      margin-left: 100px;
+      margin-top: 100px;
+    }
+    .inquiry{
+      display: flex;
+     flex-wrap: nowrap;
+     float: left;
+     margin-top: 100px;
+    }
+    .inquiry > div {
+ 
+      width: 100%;
+    
+      text-align: center;
+   
+      font-size: 30px;
+    }
+
+    .inquiry h4{
+      font-size: 1.3rem;
+    }
+
+    .inquiry p{
+      font-size: 1.1rem;
+    }
+
+    .contact{
+      text-align: left;
+      font-size: 4rem;
+      font-family: "Poppins";
+    }
+
+    .contactp{
+      text-align: left;
+      font-family: "Poppins";
+      width: 25rem;
+      margin-top: 20px;
+    }
+
+    .inq{
+      text-align: left;
+
+    }
+    .inqp{
+      margin-top: 20px;
+      text-align: left;
+      font-family: "Poppins";
+      width: 15rem;
+      margin-right: 30px;
+      font-weight: 300;
+    }
+    .contactc{
+      margin-top: 20px;
+
+      font-family: "Poppins";
+      width: 15rem;
+      margin-right: 30px;
+      text-align: left;
+      display: flex;
+      color: #000;
+    }
+
+    /* fundraising */
+
+    .fund-container {
+      background-color: #FEF6E4;
+      padding: 1rem;
+      min-height: calc(114vh - 162px);
+    }
+
+    .fundraising-section {
+      background: linear-gradient(135deg, #FF6953 0%, #E16250 50%, #993F32 100%);
+      padding: 5rem;
+      border-radius: 20px;
+      text-align: center;
+      color: #4a4a4a;
+      font-family: 'Arial', sans-serif;
+    }
+    
+    .fundraising-section h2 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      font-family: "Poltawski Nowy";
+    }
+    
+    .fundraising-section .highlight {
+      font-weight: bold;
+      color: #ffff;
+    }
+    
+    .cards-container {
+      display: flex;
+      justify-content: center;
+      gap: 10rem;
+    }
+    
+    .cards {
+      background-color: transparent !important;
+      border-radius: 15px;
+      border: none !important;
+      padding: 1rem;
+      width: 300px;
+      text-align: center;
+    }
+    
+    .cards .emoji {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    
+    .cards h3 {
+      font-size: 1.2rem;
+      color: #5F241E;
+      margin-bottom: 0.5rem;
+      margin-top: 1.5rem;
+      font-weight: 500;
+      font-family: "Poppins";
+      font-style: bold;
+    }
+    
+    .cards p {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #5F241E;
+      font-family: "Poppins";
+    }
+    .cards .icon {
+      width: 15rem; 
+      height: 15rem;
+      object-fit: contain; 
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
