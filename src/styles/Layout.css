@@ -1177,7 +1177,7 @@ font-family: "League Gothic";
       text-align: center;
     }
     
-    button:hover {
+    .contact-submit-button:hover {
       background-color: #e64a19;
     }
     
