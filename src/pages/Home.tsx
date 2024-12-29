@@ -11,6 +11,13 @@ import weDo from "../img/wedo.svg";
 import help from "../img/help.svg";
 import highlightBg from "../img/highlightBg.svg"
 import PathConstants from "../routes/pathConstants";
+import firstcard from "../img/bg.svg"
+import secondcard from "../img/secondcard.svg"
+import thirdcard from "../img/thirdcard.svg"
+import fourthcard from "../img/fourthcard.svg"
+import fifthcard from "../img/fifthcard.png"
+import sixthcard from "../img/sixthcard.svg"
+import seventhcard from "../img/seventhcard.svg"
 
 
 
@@ -55,6 +62,42 @@ const Home = () => {
           <Typography variant="body1" >
             {buttons[0].description}
           </Typography>
+        </div>
+      </div>
+      <div className="page-container">
+        <div className="firstcards">
+          <div className="firstsection-card">
+          <img src={firstcard} className="firstcard"></img>
+          <img src={secondcard} className="secondcard"></img>
+            <div className="firstcard-text">
+          <h1>16.3%</h1>
+          <p>A 2024 survey conducted by the Social Weather Stations from September 14 to 23, 2024 estimated 16.3 Filipino families.</p>
+          </div>
+          </div>
+          <div className="thirdsection-card">
+          <img src={thirdcard} className="thirdcard"></img>
+          <div className="thirdcard-text">
+            <h3>Health</h3>
+            <p>lifeskills for 2,213 children in Philippines</p>
+          </div>
+          </div>
+          <div className="thirdsection-card">
+          <img src={fourthcard} className="fourthcard"></img>
+          <div className="fourthcard-text">
+            <p>Join 5000+ People Donate</p>
+          </div>
+          </div>
+          <div className="thirdsection-card">
+          <img src={fifthcard} className="fifthcard"></img>
+          <div className="thirdcard-text">
+          <h3>Education</h3>
+          <p>Sponsor food, education to childrens</p>
+            </div>
+          </div>
+          <div className="secondsection-card">
+          <img src={sixthcard} className="sixthcard"></img>
+          <img src={seventhcard} className="seventhcard"></img>
+          </div>
         </div>
       </div>
       <div className="fund-container">
