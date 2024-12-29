@@ -1,6 +1,6 @@
 import { useState } from "react";
 import React from 'react'
-import locationImage from '../../img/map.svg';
+import locationImage from '../../img/Map.svg';
 
 const Contact: React.FC = () => {
     const [message, setMessage] = useState("");
