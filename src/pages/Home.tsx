@@ -64,7 +64,7 @@ const Home = () => {
           </Typography>
           <div className="donatebutton1">
           <button className="donatenow">Donate Now</button>
-          <button className="watchvideo">▶ Watch Video</button>
+          <a className="watchvideo" href="https://www.youtube.com/watch?v=g-XD2d43LXo">▶ Watch Video</a>
           </div>
         </div>
       
@@ -77,6 +77,17 @@ const Home = () => {
             <div className="firstcard-text">
           <h1>16.3%</h1>
           <p>A 2024 survey conducted by the Social Weather Stations from September 14 to 23, 2024 estimated 16.3 Filipino families.</p>
+          <div id="arrow_1" className="arrow-wrapper">
+       
+    
+           <div className="block"><h1>Donate Now</h1>
+           <div className="arrow arrow--right">
+         <span></span>
+             </div>
+           </div>
+
+   
+        </div>
           </div>
           </div>
           <div className="thirdsection-card">
