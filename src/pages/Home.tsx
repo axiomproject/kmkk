@@ -6,7 +6,7 @@ import footerImage from "../img/footerImage.png"
 import happinessIcon from '../img/happiness.svg';
 import loveIcon from '../img/love.svg';
 import sociallyIcon from '../img/social.svg';
-import gradStory from '../img/gradstory.svg'
+import gradStory from '../img/gradstory.svg';
 import weDo from "../img/wedo.svg";
 import help from "../img/help.svg";
 import highlightBg from "../img/highlightBg.svg"
@@ -32,7 +32,7 @@ const buttons = [
   {
     title: "Small Actions Change Lives Empowering Payatas Youth",
     description:
-      "The Philippines premier social impact platform designed to elavate your charity effortlessly.",
+      "The Philippines premier social impact platform designed to elavate your charity effortlessly",
   },
 
 ];
@@ -62,7 +62,12 @@ const Home = () => {
           <Typography variant="body1" >
             {buttons[0].description}
           </Typography>
+          <div className="donatebutton1">
+          <button className="donatenow">Donate Now</button>
+          <button className="watchvideo">▶ Watch Video</button>
+          </div>
         </div>
+      
       </div>
       <div className="page-container">
         <div className="firstcards">

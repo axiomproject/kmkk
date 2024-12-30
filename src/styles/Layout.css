@@ -177,6 +177,42 @@ font-family: "League Gothic";
       font-family: "Poppins";
     
     }
+    .donatebutton1{
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      font-family: "Poppins";
+      margin-top: 2rem;
+    }
+    .donatenow  {
+      background-color: #242424;
+      border-radius: 50px;
+      width: 12rem;
+      color: #ffff;
+      height: 3.5rem;
+       &:focus {
+        outline: 1px dotted white;
+        outline-offset: -4px;
+      }
+    }
+    .watchvideo{
+      color: var(--color-snow);
+      background: var(--color-dark);
+      background-color: #D4D4D4;
+      border-radius: 50px;
+      width: 12rem;
+      color: #000;
+      box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);; 
+      height: 3.5rem;
+       &:focus {
+        outline: 1px dotted white;
+        outline-offset: -10px;
+      }
+    }
+
+    .donatebutton1 .watchvideo{
+      font-weight: 500;
+    }
 
     .home-row {
       display: flex;
@@ -1170,7 +1206,7 @@ font-family: "League Gothic";
       color: #888;
     }
     
-    button {
+    .Contact button {
       display: inline-block;
       background-color: #FF3D00;
       color: white; 
