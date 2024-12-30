@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
     };
 
   return (
-<div className="page-container">
+<div className="contact-container">
     <div className='firstSection'>
         <div className='Contact'>
             <div className='ContactUs'>

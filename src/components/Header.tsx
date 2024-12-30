@@ -33,11 +33,6 @@ export default function Header() {
                   Meet the Team
                 </Link>
               </li>
-              <li>
-                <Link className="dropdown-link" to={PathConstants.CONTACT}>
-                  Contact Us
-                </Link>
-              </li>
             </ul>
           </li>
           <li className="nav-item">
@@ -65,6 +60,11 @@ export default function Header() {
           <li className="nav-item">
             <Link className="nav-link" to={PathConstants.HELP}>
               How can you help?
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to={PathConstants.CONTACT}>
+              Contact Us
             </Link>
           </li>
         </ul>

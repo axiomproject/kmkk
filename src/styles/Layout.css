@@ -1087,6 +1087,12 @@ font-family: "League Gothic";
 
     /* contact page */
 
+    .contact-container{
+      background-color: #FEF6E4;
+      min-height: calc(114vh - 162px);
+      padding: 30px;
+
+    }
     .form-container {
       position: top right;
     }
@@ -1246,4 +1252,35 @@ font-family: "League Gothic";
     .locationtext{
       margin-top: 5rem;
     }
-  
+  /* Buttons Main */
+
+  .App{
+    margin-right: 230px;
+
+
+
+
+  }
+
+  .App:hover {
+    background-color: #00000015;
+    color: #f37908;
+  }
+
+  .App button {
+    color: rgb(226, 17, 17);
+    padding: 100px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+
+  }
+
+
+  .App2{
+    margin-left: 230px;
+    margin-top: -50px;
+    padding: 10px 20px;
+  }

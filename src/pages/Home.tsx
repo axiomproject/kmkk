@@ -64,17 +64,6 @@ const Home = () => {
           </Typography>
         </div>
       </div>
-      <div className="App"> 
-
-
-   <Button variant="contained"
-  >Donate now</Button>
- </div>
- <div className="App2"> 
-
-   <Button variant="contained"
-   >Watch Video</Button>
- </div>
       <div className="page-container">
         <div className="firstcards">
           <div className="firstsection-card">
