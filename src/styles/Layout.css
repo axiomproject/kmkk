@@ -452,13 +452,7 @@ font-family: "League Gothic";
         z-index: 1;
         font-weight: 500;
       }
-      .footer-image {
-        width: 100%; 
-        height: auto; 
-        padding: 0px !important;
-        background-size: cover;
-        background-position: center;
-      }
+     
 
       .story-section {
         display: flex;
@@ -643,42 +637,6 @@ font-family: "League Gothic";
         text-align: left;
       }
 
-     .footerbanner{
-      font-family: "Poltawski Nowy";
-      text-align: left;
-      position: absolute;
-      top: 20rem;
-      font-size: 4rem;
-      
-     }
-     .h3-footerbanner{
-      font-family: "Poppins";
-      text-align: left;
-      font-size: 1.2rem;
-      position: absolute;
-      top: 28.5rem;
-      font-weight: 400;
-      width: 45rem;
- 
-     }
-     .footerimage{
-      width: 100%;
-      position: relative;
-     }
-     .footertext{
-     
-      margin-left: 8rem;
-     }
-     .h3-donatebutton{
-      font-family: "Poppins";
-      text-align: left;
-      font-size: 1.2rem;
-      position: absolute;
-      top: 35.5rem;
-      font-weight: 400;
-      width: 45rem;
-      margin-left: 15px;
-     }
 
      .app-container {
       width: 90%;

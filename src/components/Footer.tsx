@@ -1,10 +1,20 @@
 import React from "react";
 import "../styles/Footer.css";
-import logo from "../img/logo-no-background.png";
+import footerImage from "../img/footerImage.png"
 
 export default function Footer() {
   return (
     <footer>
+       <div className="footerimage">
+      <img src={footerImage} alt="Banner" className="footer-image" />
+      <div className="footertext">
+      <h2 className="footerbanner">Much in Little</h2>
+      <h3 className="h3-footerbanner">Every donation, no matter the size, helps change lives. Join us in making a
+      difference, one step at a time.</h3>
+      <button className="h3-donatebutton">Donate Now</button>
+      </div>
+      </div>
+  
       <div className="footer-div">
         <div className="footer-divider">
           <div className="help">
