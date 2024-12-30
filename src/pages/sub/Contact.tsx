@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
                 team and we will gladly assist you.</p>
                 <p className="contactp">Kmkkpayatas@gmail.com</p>
                 <p className="contactp">321-221-221</p>
-                <a className="contactc" href="facebook.com" target="facebook.com">Contact Support</a>
+                <a className="contactc" href="https://facebook.com" target="https://facebook.com">Contact Support</a>
             </div>
             <div className='inquiry'>
               <div className="supp">
