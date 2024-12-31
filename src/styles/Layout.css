@@ -1079,9 +1079,11 @@ font-family: "League Gothic";
       display: flex;
       flex-direction: column;
       margin-left: 8px;
+      
     }
     .thirdsection-card{
       position: relative;
+      
     }
     .thirdcard-text{
       position: absolute;
@@ -1149,10 +1151,9 @@ font-family: "League Gothic";
       gap: 15px;
       justify-content: center;
       font-family: "Poppins";
-      margin-top: 2rem;
       position: relative;
       font-size: 1.2rem;
-      bottom: 7.5rem;
+      bottom: 6rem;
     }
     .sixth-button{
      
