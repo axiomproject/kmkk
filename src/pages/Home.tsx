@@ -140,7 +140,24 @@ const Home = () => {
           </div>
           <div className="secondsection-card">
           <img src={sixthcard} className="sixthcard"></img>
-          
+          <div className="sixth-button-container">
+          <button className="sixth-button">Donate Now
+          <span className="sixth-button-arrow">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <line x1="6" y1="18" x2="18" y2="6" />
+        <polyline points="6,6 18,6 18,18" />
+      </svg>
+    </span>
+          </button>   
+          </div>
           <img src={seventhcard} className="seventhcard"></img>
           </div>
         </div>
