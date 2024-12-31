@@ -1060,12 +1060,21 @@ font-family: "League Gothic";
       border-radius: 50%;
       width: 60px;
       height: 60px;
+      transition: background-color 0.3s ease, stroke 0.3s ease, transform 0.2s ease;
     }
 
     .first-button-arrow svg {
       width: 35px;
       height: 35px;
       stroke: #80231A;
+      transition: stroke 0.3s ease;
+    }
+    .first-button-arrow:hover{
+      background-color: #891e13;
+      transform: translateY(-2px);
+    }
+    .first-button-arrow svg:hover{
+      stroke: #ff200c;
     }
     .secondsection-card{
       display: flex;
@@ -1151,8 +1160,6 @@ font-family: "League Gothic";
       margin-top: 2rem;
       position: relative;
       font-size: 1.2rem;
-      
-   
     }
 
     .fourthcard-button{
@@ -1185,7 +1192,6 @@ font-family: "League Gothic";
       outline: 1px dotted white;
       outline-offset: -4px;
     }
-
     .button-arrow {
       display: flex;
       align-items: center;
@@ -1195,14 +1201,23 @@ font-family: "League Gothic";
       border-radius: 50%;
       width: 60px;
       height: 60px;
+      transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
     }
     
     .button-arrow svg {
       width: 35px;
       height: 35px;
       stroke: #ffffff;
+      transition: stroke 0.3s ease;
     }
-
+    .button-arrow:hover{
+      background-color: #3a3939;
+      color: #5c5b5b;
+      transform: translateY(-2px);
+    }
+    .button-arrow svg:hover{
+      stroke: #bfbfbf;
+    }
     
 
     /* contact page */
