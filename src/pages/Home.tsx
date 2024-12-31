@@ -28,6 +28,8 @@ interface HighlightCardProps {
   link: string;
 }
 
+
+
 const buttons = [
   {
     title: "Small Actions Change Lives Empowering Payatas Youth",
@@ -77,17 +79,24 @@ const Home = () => {
             <div className="firstcard-text">
           <h1>16.3%</h1>
           <p>A 2024 survey conducted by the Social Weather Stations from September 14 to 23, 2024 estimated 16.3 Filipino families.</p>
-          <div id="arrow_1" className="arrow-wrapper">
-       
-    
-           <div className="block"><h1>Donate Now</h1>
-           <div className="arrow arrow--right">
-         <span></span>
-             </div>
-           </div>
-
-   
-        </div>
+          <div className="fourthcard-button-container">
+          <button className="firstcard-button">Donate Now
+          <span className="first-button-arrow">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <line x1="6" y1="18" x2="18" y2="6" />
+        <polyline points="6,6 18,6 18,18" />
+      </svg>
+    </span>
+          </button>   
+          </div>
           </div>
           </div>
           <div className="thirdsection-card">
@@ -101,6 +110,25 @@ const Home = () => {
           <img src={fourthcard} className="fourthcard"></img>
           <div className="fourthcard-text">
             <p>Join 5000+ People Donate</p>
+            <div className="fourthcard-button-container">
+          <button className="fourthcard-button">Join Community
+          <span className="button-arrow">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <line x1="6" y1="18" x2="18" y2="6" />
+        <polyline points="6,6 18,6 18,18" />
+      </svg>
+    </span>
+          </button>
+         
+          </div>
           </div>
           </div>
           <div className="thirdsection-card">
@@ -112,6 +140,7 @@ const Home = () => {
           </div>
           <div className="secondsection-card">
           <img src={sixthcard} className="sixthcard"></img>
+          
           <img src={seventhcard} className="seventhcard"></img>
           </div>
         </div>

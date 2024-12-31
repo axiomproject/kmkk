@@ -996,7 +996,7 @@ font-family: "League Gothic";
       font-family: "Poppins";
       width: 18rem;
       position-area: center;
-      bottom: 5rem;
+      bottom: 9rem;
       text-align: left;
     }
     .firstcard-text h1{
@@ -1005,6 +1005,67 @@ font-family: "League Gothic";
     .firstcard-text p{
       font-size: 1.2rem;
       font-weight: 300;
+    }
+    .first-button-container{
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      font-family: "Poppins";
+      margin-top: 2rem;
+      position: relative;
+      font-size: 1.2rem;
+   
+    }
+    .firstcard-button{
+      margin-right: 1rem;
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 20rem;
+      background-color: #8A2A21;
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      border-radius: 50px;
+     
+      font-weight: 500;
+      text-align: left;
+      padding-left: 1rem;
+      color: #fff;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      height: 5rem;
+       &:focus {
+        outline: 1px dotted white;
+        outline-offset: -4px;
+       }
+    }
+
+    .firstcard-button:hover {
+      background-color: #611c16;
+      transform: translateY(-2px);
+      color: #e0e0e0;
+      border: 2px solid rgba(255, 255, 255, 0.0);
+    }
+    
+    .firstcard-button:focus {
+      outline: 1px dotted white;
+      outline-offset: -4px;
+    }
+
+    .first-button-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #F35243;
+      color: #80231A;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+    }
+
+    .first-button-arrow svg {
+      width: 35px;
+      height: 35px;
+      stroke: #80231A;
     }
     .secondsection-card{
       display: flex;
@@ -1080,110 +1141,68 @@ font-family: "League Gothic";
       height: 11rem;      
 
     }
-.arrow-wrapper {
-  display: flex;
-  align-items: center;
-}
-    .block {
-      border: 2px solid rgba(255, 255, 255, 0.2);
-      outline: #FFFFFF;
-      background-color: #8A2A21;
-      text-align: left;
-      margin: 15px;
+
+    
+    .fourthcard-button-container{
       display: flex;
-      align-items: center;
-      justify-content: space-between;
+      gap: 15px;
+      justify-content: center;
+      font-family: "Poppins";
+      margin-top: 2rem;
       position: relative;
-      border-radius: 50px;
-     
-      height: 5rem;
-      right: 1.5rem;
-    }
-    .block h1{
       font-size: 1.2rem;
-      text-align: left;
-      margin-left: 1rem;
-      width: 10rem;
-    }
-
-    #arrow_1 .arrow {
-
-      cursor: pointer;
-      display: block;
-      width: 5rem; 
-      height: 5rem; 
-      position: relative;
-      font-size: 1rem;
-      margin-right: 2rem;
+      
    
     }
-    
-    #arrow_1 .arrow span,
-    #arrow_1 .arrow:before,
-    #arrow_1 .arrow:after {
-      background: #fff;
-      content: '';
-      display: block;
-      width: 30px; /* $size */
-      height: 2px; /* $width */
+
+    .fourthcard-button{
       position: absolute;
-      top: calc(50% - 1px); /* Centered based on $width */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 20rem;
+      background-color: #E1E1E1;
+      border-radius: 50px;
+      border-color: transparent;
+      font-weight: 500;
+      text-align: left;
+      padding-left: 1rem;
+      color: #242424;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      height: 5rem;
+       &:focus {
+        outline: 1px dotted white;
+        outline-offset: -4px;
+       }
+    }
+
+    .fourthcard-button:hover {
+      background-color: #9a9a9a;
+      transform: translateY(-2px);
     }
     
-    #arrow_1 .arrow:before {
-      transform: rotate(-45deg);
+    .fourthcard-button:focus {
+      outline: 1px dotted white;
+      outline-offset: -4px;
+    }
+
+    .button-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #242424;
+      color: #ffffff;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
     }
     
-    #arrow_1 .arrow:after {
-      transform: rotate(45deg);
+    .button-arrow svg {
+      width: 35px;
+      height: 35px;
+      stroke: #ffffff;
     }
-    
-    #arrow_1 .arrow span {
-      width: 0;
-      transition: width 0.3s;
-    }
-    
-    #arrow_1 .arrow:hover span {
-      width: 42.42px; /* $size * 1.414 */
-    }
-    
-    #arrow_1 .arrow.arrow--left span,
-    #arrow_1 .arrow.arrow--left:before,
-    #arrow_1 .arrow.arrow--left:after {
-      left: 0;
-      transform-origin: left 50%;
-    }
-    
-    #arrow_1 .arrow.arrow--right span,
-    #arrow_1 .arrow.arrow--right:before,
-    #arrow_1 .arrow.arrow--right:after {
-      right: 0;
-      transform-origin: right 50%;
-    }
-    
-    #arrow_1 .arrow.arrow--left:before,
-    #arrow_1 .arrow.arrow--left:after,
-    #arrow_1 .arrow.arrow--right:before,
-    #arrow_1 .arrow.arrow--right:after {
-      transition: left 0.3s 0.05s, right 0.3s 0.05s;
-    }
-    
-    #arrow_1 .arrow.arrow--left span,
-    #arrow_1 .arrow.arrow--right span {
-      transition: width 0.3s, left 0.3s 0.05s, right 0.3s 0.05s;
-    }
-    
-    #arrow_1 .arrow.arrow--left:hover span,
-    #arrow_1 .arrow.arrow--left:hover:before,
-    #arrow_1 .arrow.arrow--left:hover:after {
-      left: -21.21px; /* -($size / 1.414) */
-    }
-    
-    #arrow_1 .arrow.arrow--right:hover span,
-    #arrow_1 .arrow.arrow--right:hover:before,
-    #arrow_1 .arrow.arrow--right:hover:after {
-      right: -21.21px; /* -($size / 1.414) */
-    }
+
     
 
     /* contact page */
