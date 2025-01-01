@@ -58,6 +58,7 @@ footer {
    }
    .h3-donatebutton  {
     margin-top: 3rem;
+    border-color: #000000;
     background-color: transparent;
     border-radius: 50px;
     font-family: "Poppins";
@@ -65,10 +66,13 @@ footer {
     width: 12rem;
     color: #000000;
     height: 3.5rem;
-     &:focus {
-      outline: 1px dotted white;
-      outline-offset: -4px;
-    }
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s, transform 0.2s ease;
+  }
+  .h3-donatebutton:hover{
+    transform: translateY(-2px);
+    background-color: #cd5729;
+    color: #fff;
+    border-color: transparent;
   }
   .h3-contactus  {
     margin-top: 3rem;

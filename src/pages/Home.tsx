@@ -1,8 +1,7 @@
 import React from "react";
 import "../styles/Layout.css";
-import { Button, Typography } from "@mui/material";
+import {Typography} from "@mui/material";
 import bannerImage from "../img/map.png"
-import footerImage from "../img/footerImage.png"
 import happinessIcon from '../img/happiness.svg';
 import loveIcon from '../img/love.svg';
 import sociallyIcon from '../img/social.svg';

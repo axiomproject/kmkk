@@ -192,10 +192,10 @@ font-family: "League Gothic";
       color: #ffff;
       font-family: "Poppins";
       height: 3.5rem;
-      transition: background-color 0.3s ease;
+      transition: background-color 0.4s ease;
     }
     .donatenow:hover  {
-      background-color: #e67347;
+      background-color: #cd5729;
     }
     .watchvideo{
       color: var(--color-snow);
@@ -208,10 +208,11 @@ font-family: "League Gothic";
       color: #000;
       box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);; 
       height: 3.5rem;
-       &:focus {
-        outline: 1px dotted white;
-        outline-offset: -10px;
-      }
+      transition: background-color 0.4s, color 0.4s ease;
+    }
+    .watchvideo:hover  {
+      background-color: #bfbebe;
+      color: #2c2727;
     }
 
     .donatebutton1 .watchvideo{
@@ -1480,7 +1481,7 @@ font-family: "League Gothic";
 }
 .community-text p{
       margin-top: 3rem;
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
       font-size: 1.1rem;
       font-family: "Poppins";
       color: #696969;
