@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Footer.css";
 import footerImage from "../img/footerImage.png"
+import footerImage2 from "../img/footerbg2.svg"
 
 export default function Footer() {
   return (
@@ -21,7 +22,7 @@ export default function Footer() {
         <h1 className="footercreds">Need Help?</h1>
         <h5 className="h5-footercreds">If you have further questions or need any assistance, please get in touch with our
         team and we will gladly assist you.</h5>
-        <h5 className="h5-contact">Contact Us</h5>
+        <button className="h3-contactus">Contact Us</button>
         </div>
         <div className="touch">
         <h1 className="footercreds">Stay in touch</h1>
@@ -29,14 +30,60 @@ export default function Footer() {
         stories from recipients.</h5>
         </div>
         </div>
-        <div className="main-footer-second">
-        <div className="footer-second">
-          <h1>Donors</h1>
-          <h1>Non-Profits</h1>
-          <h1>Companies</h1>
-          <h1>About Us</h1>
-          <h1>Support</h1>
-          <h1>Social Media</h1>
+        <div className="footer-container">
+        <div className="footer-column">
+          <h4>Donors</h4>
+          <ul>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          </ul>
+        </div>
+        <div className="footer-column">
+          <h4>Non Profits</h4>
+          <ul>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          </ul>
+        </div>
+        <div className="footer-column">
+          <h4>Companies</h4>
+          <ul>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          </ul>
+        </div>
+        <div className="footer-column">
+          <h4>About Us</h4>
+          <ul>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          </ul>
+        </div>
+        <div className="footer-column">
+          <h4>Support</h4>
+          <ul>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          </ul>
+        </div>
+        <div className="footer-column">
+          <h4>Social Media</h4>
+          <ul>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          </ul>
         </div>
         </div>
       </div>

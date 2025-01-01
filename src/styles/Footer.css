@@ -2,27 +2,33 @@
 
 footer {
     height: 100%;
-    background-color: #FEF6E4;
+    background-color: #242424;
+    
   }
   
   .footer-div {
-    padding: 50px;
-    padding-right: 10px;
+
 
     background-color: #242424;
   }
   .footer-divider{
     display: flex;
     gap: 50px;
-    margin-top: 2rem;
+    padding: 5rem;
+    padding-top: 2rem;
+  
   } 
   .footer-image {
-    width: 100%; 
+    width: inherit; 
     height: auto; 
     padding: 0px !important;
     background-size: cover;
     background-position: center;
     position: relative;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #FEF6E4;
+    border-color: white;
   }
   .footerbanner{
     font-family: "Poltawski Nowy";
@@ -64,9 +70,22 @@ footer {
       outline-offset: -4px;
     }
   }
+  .h3-contactus  {
+    margin-top: 3rem;
+    background-color: transparent;
+    border-radius: 50px;
+    border-color: white;
+    font-family: "Poppins";
+    font-size: 1rem;
+    width: 12rem;
+    color: #ffffff;
+    height: 3.5rem;
+
+  }
    .footerimage{
     width: 100%;
     position: relative;
+    bottom: 1rem;
    }
    .footertext{
     top: 12rem;
@@ -136,4 +155,68 @@ footer {
     font-weight: 300;
     margin-bottom: 10px;
     margin-top: 35px;
+  }
+
+  .footer-container {
+ 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image:url("../img/footerbg2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+    border: 2px solid  rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 50px 50px;
+    border-top-left-radius: 50px 50px;
+    
+    text-align: center;
+  }
+  
+  .footer-column {
+    
+    flex: 1;
+    margin: 50px;
+    min-width: 150px;
+    justify-items: center;
+  }
+  
+  .footer-column h4 {
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: white;
+    
+  }
+  
+  .footer-column ul {
+    margin-top: 1.2rem;
+    font-family: "Poppins";
+    list-style: none;
+    padding: 0;
+    color: #696969;
+    margin-bottom: 5rem;
+  }
+  
+  .footer-column ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-column ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      border: 2px solid #fff;
+    }
+  
+    .footer-column {
+      text-align: center;
+    }
   }
