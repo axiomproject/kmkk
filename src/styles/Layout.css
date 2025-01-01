@@ -185,15 +185,17 @@ font-family: "League Gothic";
       margin-top: 2rem;
     }
     .donatenow  {
+      border-color: transparent;
       background-color: #242424;
       border-radius: 50px;
       width: 12rem;
       color: #ffff;
+      font-family: "Poppins";
       height: 3.5rem;
-       &:focus {
-        outline: 1px dotted white;
-        outline-offset: -4px;
-      }
+      transition: background-color 0.3s ease;
+    }
+    .donatenow:hover  {
+      background-color: #e67347;
     }
     .watchvideo{
       color: var(--color-snow);
@@ -1456,35 +1458,42 @@ font-family: "League Gothic";
     .locationtext{
       margin-top: 5rem;
     }
-  /* Buttons Main */
+  
+/* Community-Impact Section */
 
-  .App{
-    margin-right: 230px;
+.community-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      gap: 7rem;
+}
 
+.community-text{
+      max-width: 50%;
+      justify-items: left;
+}
+.community-text h2{
+      font-size: 3rem;
+      font-family: "Poltawski Nowy";
+      text-align: left;
+}
+.community-text p{
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+      font-family: "Poppins";
+      color: #696969;
+      width: 60vh;
+      text-align: left;
+}
 
+.community-image{
+  max-width: max-content;
+}
 
+.community-imagery img{
 
-  }
+  border-radius: 10px;
 
-  .App:hover {
-    background-color: #00000015;
-    color: #f37908;
-  }
-
-  .App button {
-    color: rgb(226, 17, 17);
-    padding: 100px;
-    width: 150px;
-    height: 40px;
-    border: none;
-    border-radius: 100%;
-    cursor: pointer;
-
-  }
-
-
-  .App2{
-    margin-left: 230px;
-    margin-top: -50px;
-    padding: 10px 20px;
-  }
+}

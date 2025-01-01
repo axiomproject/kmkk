@@ -18,6 +18,7 @@ import fourthcard from "../img/fourthcard.svg"
 import fifthcard from "../img/fifthcard.png"
 import sixthcard from "../img/sixthcard.svg"
 import seventhcard from "../img/seventhcard.svg"
+import communityImage from  "../img/communityImage.svg"
 
 
 
@@ -224,6 +225,20 @@ const Home = () => {
       </div>
     </section>
     
+      </div>
+      <div className="page-container">
+        <div className="community-container">
+          <div className="community-text">
+            <h2>Community Impact</h2>
+            <p>
+            Experience the ripple effect of change as communities share their journey with KKMK through real testimonials from sponsors, volunteers, families and students.
+            </p>
+            <button className="donatenow">Donate Now</button>
+          </div>
+          <div className="community-image">
+            <img src={communityImage} className="community-imagery"></img>
+          </div>
+        </div>
       </div>
       </div>
         <h2 className="map">Payatas Rift</h2>
