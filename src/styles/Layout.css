@@ -988,7 +988,7 @@ font-family: "League Gothic";
       display: flex;
       flex-direction: column;
       position: relative;
-      
+      gap:5px;
     }
  
     .firstcard-text{
@@ -1082,7 +1082,7 @@ font-family: "League Gothic";
       display: flex;
       flex-direction: column;
       margin-left: 8px;
-      
+      gap: 2px;
     }
     .thirdsection-card{
       position: relative;
