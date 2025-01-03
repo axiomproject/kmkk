@@ -864,14 +864,14 @@ font-family: "League Gothic";
     .h1Featured{
       text-align: left;
       
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
       font-family: "Poppins";
       font-weight: 600;
       font-size: 1.5em;
     }
     .mainfeatured{
       display: grid;
-      justify-items: flex-start ;
+  
       justify-content: center;
     }
     .featured-highlights {
@@ -929,10 +929,11 @@ font-family: "League Gothic";
     
     .highlights-grid {
       display: flex;
-      gap: 5rem;
+      gap: 3rem;
       justify-content: center;
       flex-wrap: wrap;
       margin-top: 2rem;
+      margin-right: 2rem;
     }
     
     .highlight-card {
@@ -1497,4 +1498,31 @@ font-family: "League Gothic";
 
   border-radius: 10px;
 
+}
+
+/* donate-section */
+
+.donate-container{
+  display: flex;
+  padding: 100px;
+  align-items: center;
+  gap: 2rem;
+}
+
+.donate-text{
+  text-align: left; 
+  font-family: "Poltawski Nowy";
+ 
+}
+.donate-text p{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Poppins";
+  width: 40rem;
+}
+.donate-text li{
+  font-family: "Poppins"
+}
+.contribute{
+  width: 35rem;
 }
