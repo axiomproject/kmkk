@@ -309,6 +309,7 @@ const Home = () => {
       </div>
       </div>
         <h2 className="map">Payatas Rift</h2>
+
       <img src={bannerImage} alt="Banner" className="banner-image" />
     
       

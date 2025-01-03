@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Layout.css";
 import bannerImage from "../img/coverphoto.png"
 import donatepicture from "../img/donatepicture.png"
-
+import partnerwithus from '../img/partnerwithus.svg';
 
 
 const Help = () => {
@@ -41,6 +41,21 @@ const Help = () => {
         <img src={donatepicture}></img>
       </div>
     </div>
+    <div className="partner-section">
+        <div className="partner-content">
+          <h1>Partner with Us</h1>
+          <p>
+            We welcome collaborations with organizations, corporations, and individuals who share our vision of empowering underprivileged communities through education and support.
+          </p>
+          <p>
+            We offer flexible partnership options tailored to suit your specific goals and preferences. Whether you’re looking to sponsor a student, organize a fundraising event, or initiate a corporate giving program, we’re here to work with you every step of the way.
+          </p>
+          <p>
+            Together, we can create positive change and build a brighter future for those in need. Partner with us today and be a part of something truly impactful.
+          </p>
+        </div>
+        <img src={partnerwithus} alt="Partner with Us" className="partner-icon" />
+      </div>
    </div>
     </div>
   );
