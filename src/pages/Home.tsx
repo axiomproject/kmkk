@@ -18,6 +18,10 @@ import fifthcard from "../img/fifthcard.png"
 import sixthcard from "../img/sixthcard.svg"
 import seventhcard from "../img/seventhcard.svg"
 import communityImage from  "../img/communityImage.svg"
+import Imelda from "../img/Imelda.png";
+import sponsortwo from "../img/sponsortwo.png";
+import sponsorthree from "../img/sponsorthree.png";
+import sponsorfour from "../img/sponsorfour.png";
 
 
 
@@ -237,7 +241,71 @@ const Home = () => {
           <div className="community-image">
             <img src={communityImage} className="community-imagery"></img>
           </div>
+         
         </div>
+        <div className="community-grid">
+          <div className="flip-card">
+  <div className="flip-card-inner">
+    <div className="flip-card-front">
+      <img src={Imelda} alt="imelda.png" ></img>
+      <h1>Imelda Hernandez "Erni" Armstrong</h1>
+      <p>Co-Founder of Philippines Humanitarian, partner of KKMK</p>
+    </div>
+    <div className="flip-card-back">
+     
+     
+      <p>“ I'm honoring the memory of my mother by continuing her legacy that she started with KM Foundation Founder, Father Walter Ysaac. “</p>
+      <p>“ I love helping KM Foundation because of Eva Aquino. I have complete trust in her and know that all the efforts that Philippines 
+        Humanitarian makes on behalf of KM Foundation are being implemented in the most efficient, professional and honorable way. “</p>
+    </div>
+  </div>
+</div>
+<div className="flip-card">
+  <div className="flip-card-inner">
+    <div className="flip-card-front">
+      <img src={sponsortwo} alt="sponsortwo.png" ></img>
+      <h1>4T Foundation International</h1>
+      <p>Sponsors (Men, Josy, Jed & Nicho) for 20 years</p>
+    </div>
+    <div className="flip-card-back">
+     
+     
+      <p>“ We are 4T foundation International, based in Escondido, California, USA. We have supported Kapatidkitamahalkita Foundation's scholarship and outreach/feeding programs for almost 20 years now. Your foundation has done a great job in monitoring our scholars' needs and making sure that the 1 funds are used for whatever they are alotted for “</p>
+      <p>“ God bless you for all the good things that you do for our less fortunate brothers and sisters in Christ. “</p>
+    </div>
+  </div>
+</div>
+<div className="flip-card">
+  <div className="flip-card-inner">
+    <div className="flip-card-front">
+      <img src={sponsorthree} alt="sponsorthree.png" ></img>
+      <h1>Cori Sutherland</h1>
+      <p>Philippines Humanitarian Executive Director</p>
+    </div>
+    <div className="flip-card-back">
+     
+     
+      <p>“ Since 2015, my family has sponsored two students through the KKMK Foundation, deeply moved by the heartfelt communications we received.  As someone who has worked in nonprofits in the United States, I knew just how much time and care it took to ensure that my family had a true connection with the girls we were supporting.“</p>
+      <p>“ I am sincerely grateful for the KKMK Foundation's partnership in our efforts to alleviate poverty through education. “</p>
+    </div>
+  </div>
+</div>
+<div className="flip-card">
+  <div className="flip-card-inner">
+    <div className="flip-card-front">
+      <img src={sponsorfour} alt="sponsorfour.png" ></img>
+      <h1>Paulina Michaud</h1>
+      <p>Proud Sponsor of KKMK Foundation for 20 years</p>
+    </div>
+    <div className="flip-card-back">
+     
+     
+      <p>“ The KapatidKita, MahalKita Foundation (KM Foundation) transforms hundreds of children’s lives by offering quality education and resources, empowering them toward a brighter future. Their dedication inspires my 20-year commitment. “</p>
+      <p>“ I cannot say enough about the wonderful job this Foundation does. I hope they get to support to continue their endeavor for many more years. “</p>
+    </div>
+  </div>
+</div>
+          </div>
       </div>
       </div>
         <h2 className="map">Payatas Rift</h2>
