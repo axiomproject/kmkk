@@ -76,7 +76,7 @@ export default function Header() {
       </nav>
       <div className="actions-container">
         <Link to={PathConstants.HOME} className="signup-button sign-up">Sign Up</Link>
-        <Link to={PathConstants.HOME} className="donate-button donate">Donate</Link>
+         <Link to="/help?tab=donate" className="donate-button donate">Donate</Link>
       </div>
     </header>
   );

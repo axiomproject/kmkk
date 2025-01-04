@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import "../styles/Layout.css";
 import bannerImage from "../img/coverphoto.png"
 import donatepicture from "../img/donatepicture.png"
@@ -6,8 +7,15 @@ import volunteerpicture from "../img/volunteer.svg"
 import partnerwithus from '../img/partnerwithus.svg';
 
 const Help: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<string>("partner");
+
+  const [SearchParams, setSearchParams] = useSearchParams();
+  const initialTab = SearchParams.get("tab") || "partner";
+  const [activeTab, setActiveTab] = useState<string>(initialTab);
   const [animationClass, setAnimationClass] = useState<string>("fade-in");
+
+  useEffect(() => {
+      setActiveTab(initialTab);
+  }, [initialTab]);
 
   const handleTabChange = (tab: string) => {
     if (tab !== activeTab) {
@@ -15,6 +23,7 @@ const Help: React.FC = () => {
       setTimeout(() => {
         setActiveTab(tab);
         setAnimationClass("fade-in");
+        setSearchParams({ tab });
       }, 300); 
     }
   };
@@ -48,10 +57,56 @@ const Help: React.FC = () => {
         case "sponsor":
           return (
             <div className={`tab-content ${animationClass}`}>
-              <div className="partner-section">
-                <h1>wala pa</h1>
+              <div className="page-container">
+               <div className="sponsor-container">
+    <div className="sponsor-text">
+<h1>Sponsor a Student</h1>
+<p>By sponsoring one of the following students, you will give them the opportunity to get an education so they can escape the cycle of poverty. Your contribution pays for their transportation to school, uniforms, books, tuition, and other school-related expenses.</p>
+<p>Once you’ve chosen the student you would like to sponsor, we will send you a more detailed student profile. At that point, we will start your student sponsorship based on a donation of:</p>
+</div>
+ </div>
+              <div className="shape-container">
+                
+              <div className="shape">
+              <h1>PHP 12,000 /
+                School year
+              </h1>
+              <h1>for k - Grade 6
+                Students
+              </h1>
               </div>
-            </div>
+              <div className="shape">
+              <h1>PHP 12,000 /
+                School year
+              </h1>
+              <h1>for k - Grade 6
+                Students
+              </h1>
+              </div>
+              <div className="shape">
+              <h1>PHP 12,000 /
+                School year
+              </h1>
+              <h1>for k - Grade 6
+                Students
+              </h1>
+              </div>
+              <div className="shape">
+              <h1>PHP 12,000 /
+                School year
+              </h1>
+              <h1>for k - Grade 6
+                Students
+              </h1>
+              </div>
+              </div>
+
+              <div className="sponsorp-text">
+              <p>You may either set up a recurring monthly donation, or you may make a one-time payment for an annual sponsorship. If you choose an annual sponsorship, we will send you a renewal request when it’s about to expire. 
+                Our hope is that, like almost all of our sponsors, you will opt to continue helping your student. Your commitment means the world to these children and, in turn, they will strive to honor your participation in their education.</p>
+                </div>
+              </div>
+           </div>
           );
       case "donate":
         return (

@@ -1544,6 +1544,72 @@ font-family: "League Gothic";
   max-width: 50rem;
 }
 
+/* help-sponsor-section */
+
+.sponsor-container {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+  gap: 2rem;
+
+
+
+}
+
+.sponsor-text h1 {
+  margin-top: 100px;
+  margin-bottom: 1rem;
+  font-family: "Poltawski Nowy";
+  text-align: left; 
+  font-size: 3rem;
+
+}
+.sponsor-text p {
+  color: #242424;
+  font-family: "Poppins";
+  text-align: left; 
+  font-size: 1rem;
+
+}
+.sponsorp-text p  {
+  color: #242424;
+  font-family: "Poppins";
+  text-align: left; 
+  font-size: 1rem;
+  padding: 100px;
+  padding-top: 0px;
+
+}
+.shape-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding: 100px;
+  padding-top: 50px;
+  gap: 1rem;
+
+
+}
+
+.shape {
+  padding-top: 2rem;
+  padding: 1.5rem;
+  background: #FEF6E4;
+  box-shadow: 0px 6px 4px #EE3F24;
+  border-radius: 40px;
+
+}
+
+.shape h1{
+  width: 250px;
+  height: 75px;
+  min-width: 10px;
+  font-size: 25px;
+  font-family: "Poltawski Nowy";
+}
+
 /* donate-section */
 
 .donate-container{

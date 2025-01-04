@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate, Link } from "react-router-dom";
 import "../styles/Layout.css";
 import {Typography} from "@mui/material";
 import bannerImage from "../img/map.png"
@@ -32,7 +33,7 @@ interface HighlightCardProps {
   link: string;
 }
 
-
+  
 
 const buttons = [
   {
@@ -56,7 +57,8 @@ const HighlightCard: React.FC<HighlightCardProps> = ({ title, description, image
   );
 };
 
-const Home = () => {
+const Home: React.FC = () => {
+  const navigate = useNavigate();
 
   return (
     <div className="page-container">
@@ -69,7 +71,10 @@ const Home = () => {
             {buttons[0].description}
           </Typography>
           <div className="donatebutton1">
-          <button className="donatenow">Donate Now</button>
+            <Link to="/help?tab=donate">
+            <button className="donatenow">Donate Now</button>
+            </Link>
+   
           <a className="watchvideo" href="https://www.youtube.com/watch?v=g-XD2d43LXo">▶ Watch Video</a>
           </div>
         </div>
@@ -236,7 +241,9 @@ const Home = () => {
             <p>
             Experience the ripple effect of change as communities share their journey with KKMK through real testimonials from sponsors, volunteers, families and students.
             </p>
+            <Link to="/help?tab=donate">
             <button className="donatenow">Donate Now</button>
+            </Link>
           </div>
           <div className="community-image">
             <img src={communityImage} className="community-imagery"></img>
