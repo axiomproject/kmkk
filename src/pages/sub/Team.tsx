@@ -18,7 +18,7 @@ const teamMembers = [
   { id: 13, name: "Louvell Ayumi A. Ibarra", subText: "Lorem ipsum", profileClass: "profile-13" },
   { id: 14, name: "Mohammad Nur A. Baganday", subText: "Lorem ipsum", profileClass: "profile-14" },
   { id: 15, name: "Precious Rose Star P. Baylon", subText: "Lorem ipsum", profileClass: "profile-15" },
-  { id: 16, name: "Rocella D. Peña", subText: "Amazona", profileClass: "profile-16" },
+  { id: 16, name: "Rocella D. Peña", subText: "The Most Diabolical", profileClass: "profile-16" },
  
 ];
 
