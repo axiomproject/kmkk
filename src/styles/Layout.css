@@ -1500,6 +1500,49 @@ font-family: "League Gothic";
   border-radius: 10px;
 
 }
+/* Partner with Us Section */
+
+
+.partner-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  
+  padding: 100px;
+  border-radius: 8px;
+}
+
+.partner-content {
+ 
+    position: relative; 
+    top: -4rem; 
+   
+    text-align: left;
+}
+
+.partner-icon {
+  width: 500px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.partner-content h1 {
+  margin-bottom: 20px;
+  font-family: Poltawski Nowy;
+  font-size: 2.5rem;
+  color:#242424;
+}
+
+.partner-content p {
+  margin-bottom: 10px;
+  font-family: Poppins;
+  line-height: 2;
+  color: #242424;
+  min-width: 40rem;
+  max-width: 50rem;
+}
 
 /* donate-section */
 
@@ -1516,17 +1559,45 @@ font-family: "League Gothic";
  
 }
 .donate-text p{
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   margin-bottom: 2rem;
   font-family: "Poppins";
-  width: 40rem;
+  min-width: 20rem;
+  max-width: 45rem;
+  line-height: 1.5;
 }
 .donate-text li{
-  font-family: "Poppins"
+  font-family: "Poppins";
+  max-width: 45rem;
 }
 .contribute{
   width: 35rem;
 }
+
+/* help-volunteer-section */
+
+.volunteer-container{
+  display: flex;
+  padding: 100px;
+  align-items: center;
+  gap: 2rem;
+}
+
+.volunteer-text{
+  text-align: left; 
+  font-family: "Poltawski Nowy";
+ 
+}
+.volunteer-text p{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2;
+  font-family: "Poppins";
+  width: 40rem;
+  color: #242424;
+}
+
+
 
 /* Community- Grid Flippy */
 .community-grid{
@@ -1611,48 +1682,7 @@ font-family: "League Gothic";
     
   }
 
- /* Partner with Us Section */
-
-
-.partner-section {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
  
-  padding: 100px;
-  border-radius: 8px;
-}
-
-.partner-content {
-    flex: 1;
-    position: relative; 
-    top: -4rem; 
-   
-    text-align: left;
-}
-
-.partner-icon {
-  width: 500px;
-  height: auto;
-  flex-shrink: 0;
-}
-
-.partner-content h1 {
-  margin-bottom: 20px;
-  font-family: Poltawski Nowy;
-  font-size: 2.5rem;
-  color:#242424;
-}
-
-.partner-content p {
-  margin-bottom: 10px;
-  font-family: Poppins;
-  line-height: 1.6;
-  color: #242424;
-  width: 40rem;
-}
 
 /* help-tab */
 
@@ -1792,4 +1822,39 @@ transition: transform 0.3s ease;
 
 .gallery-image2:hover {
 transform: scale(1.05);
+}
+
+
+/* Events */
+
+.events-container{
+  text-align: left;
+  width: 100%;
+  padding: 5rem;
+}
+.Events{
+  text-align: left;
+  font-family: "Poltawski Nowy";
+}
+
+/* help-tabs */
+.help-tabs {
+  padding-top: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.tab-content {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.2s ease-in-out;
+}
+
+.tab-content.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tab-content.fade-out {
+  opacity: 0;
+  transform: translateY(-20px);
 }

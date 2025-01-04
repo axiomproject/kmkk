@@ -1,13 +1,14 @@
 const PathConstants = {
   HOME: "/",
   LIFE: "Life",
-  GRAD: "graduates",
-  HELP: "help",
-  STORY: "story",
+  GRAD: "Graduates",
+  HELP: "Help",
+  STORY: "Story",
   COMMUNITY: "Community",
   PARTNER: "Partner",
   TEAM: "Team",
   CONTACT: "Contact",
+  EVENTS: "Events",
 
 };
 

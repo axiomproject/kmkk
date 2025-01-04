@@ -8,6 +8,7 @@ import Community from "../pages/sub/Community"
 import Partner from "../pages/sub/Partner"
 import Team from "../pages/sub/Team"
 import Contact from "../pages/sub/Contact"
+import Events from "../pages/sub/Events"
 
 
 
@@ -29,6 +30,7 @@ const routes = [
   { path: PathConstants.PARTNER, element: <Partner /> },
   { path: PathConstants.TEAM, element: <Team /> },
   { path: PathConstants.CONTACT, element: <Contact /> },
+  { path: PathConstants.EVENTS, element: <Events /> },
 
 
 
