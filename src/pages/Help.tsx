@@ -5,6 +5,10 @@ import bannerImage from "../img/coverphoto.png"
 import donatepicture from "../img/donatepicture.png"
 import volunteerpicture from "../img/volunteer.svg"
 import partnerwithus from '../img/partnerwithus.svg';
+import Ellipse from '../img/Ellipse.png';
+import KMKK from '../img/KKMK.svg';
+import KMKK2 from '../img/KKMK2.svg';
+import yellowkid from '../img/yellowkid.png'
 
 const Help: React.FC = () => {
 
@@ -105,7 +109,20 @@ const Help: React.FC = () => {
               <p>You may either set up a recurring monthly donation, or you may make a one-time payment for an annual sponsorship. If you choose an annual sponsorship, we will send you a renewal request when it’s about to expire. 
                 Our hope is that, like almost all of our sponsors, you will opt to continue helping your student. Your commitment means the world to these children and, in turn, they will strive to honor your participation in their education.</p>
                 </div>
+                <div className="yellow-picture"> 
+    <img src={yellowkid} alt="yellow"></img>
+    <div className="bottom-left">1.3 Donations</div>
+    </div>
+    <div className="Maxine-text">
+    <p>Maxine Rose: Journey to Success </p>
+    <div className="progress-bar">
+
+    <p>₱13,200 raised</p>
+    </div>
+    </div>
+ 
               </div>
+             
            </div>
           );
       case "donate":
@@ -148,7 +165,9 @@ const Help: React.FC = () => {
               </div>
               <div className="donate-picture">
                 <img src={donatepicture} alt="Donate" />
+                
               </div>
+             
             </div>
           </div>
         );
@@ -174,9 +193,43 @@ const Help: React.FC = () => {
           case "faq":
             return (
               <div className={`tab-content ${animationClass}`}>
-                <div className="volunteer-container">
-                  <h1>wala pa</h1>
-                </div>
+                <div className="faq-container">
+    <div className="faq-item1">
+      <div>
+        <a href="your-link-1">
+          <img src={KMKK} alt="FAQ" />
+        </a>
+      </div>
+      <div className="faq-text">
+        <a href="your-link-1">
+          <h1>Best Practice for Donating Safely Online with Kmkk</h1>
+        </a><br />
+        <p>Answers to “How can I donate safely online?”</p>
+        <div className="kmkk-team">
+          <img src={Ellipse} alt="FAQ" />
+          <p>by Kmkk Team</p>
+        </div>
+      </div>
+    </div>
+
+    <div className="faq-item2">
+      <div>
+        <a href="your-link-2">
+          <img src={KMKK2} alt="FAQ" />
+        </a>
+      </div>
+      <div className="faq-text">
+        <a href="your-link-2">
+          <h1>Are There More Ways I Can Help Beyond Donating?</h1>
+        </a><br />
+        <p>You can help further the causes you care about with these ideas.</p>
+        <div className="kmkk-team">
+          <img src={Ellipse} alt="FAQ" />
+          <p>by Kmkk Team</p>
+        </div>
+      </div>
+    </div>
+  </div>
               </div>
             );
       default:

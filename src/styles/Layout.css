@@ -1640,6 +1640,45 @@ font-family: "League Gothic";
   width: 35rem;
 }
 
+.yellow-picture {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-right: 64rem;
+}
+.yellow-picture img{
+  border-radius: 20px;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+ 
+}
+
+.Maxine-text p {
+ padding: 1.5rem;
+ font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 16px;
+ line-height: 24px;
+ margin-right: 77rem;
+ 
+
+}
+
+.progress-value progress{
+  color: #5F241E;
+}
+
+
+.progress-bar p {
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-top: 20px;
+  
+}
 /* help-volunteer-section */
 
 .volunteer-container{
@@ -1949,4 +1988,95 @@ transform: scale(1.05);
 .tab-content.fade-out {
   opacity: 0;
   transform: translateY(-20px);
+}
+
+/* faq */
+
+.faq-container {
+  display: flex;
+  padding-left: 0; 
+  margin-left: 0; 
+  margin-top: 100px; 
+}
+
+.faq-item1, .faq-item2 {
+  display: flex;
+  flex-direction: column; 
+  align-items: left; 
+  width: 350px; 
+  height: 450px; 
+  border-radius: 20px;
+  padding: 10px; 
+}
+
+.faq-item1 img, .faq-item2 img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 4px; 
+}
+
+.faq-text {
+  text-align: left; 
+  margin-top: 15px; 
+}
+
+.faq-text a{
+  text-decoration: none;
+
+}
+.faq-text a:hover{
+  text-decoration: underline;
+  color: #000;
+}
+
+.faq-item1 h1 {
+  font-size: 25px; 
+  color: #333;
+ 
+  width: 290px; 
+  word-wrap: break-word;
+  line-height: 1.50;
+
+}
+
+.faq-item2 h1{
+  font-size: 25px; 
+  color: #333;
+  
+  width: 300px; 
+  word-wrap: break-word;
+  line-height: 1.50;
+
+}
+
+.faq-text p {
+  font-size: 15px; 
+  width: 200px; 
+  word-wrap: break-word; 
+  color: #555;
+  width: 230px;
+  word-wrap: break-word; 
+}
+
+.kmkk-team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap:  5px; 
+  margin-top: 15px;
+}
+
+.kmkk-team img {
+  width: 35px; 
+  height: 35px; 
+  border-radius: 50%;
+
+
+}
+
+.kmkk-team p {
+  font-size: 20px; 
+  color: #0c0b0b;
+  text-align: left;
+  margin-top: 15px;
 }

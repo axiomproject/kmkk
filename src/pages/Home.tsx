@@ -58,7 +58,7 @@ const HighlightCard: React.FC<HighlightCardProps> = ({ title, description, image
 };
 
 const Home: React.FC = () => {
-  const navigate = useNavigate();
+   useNavigate();
 
   return (
     <div className="page-container">
